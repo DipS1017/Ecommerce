@@ -1,0 +1,287 @@
+*{
+   
+    box-sizing:border-box;
+   margin: 0;
+   padding: 0;
+    
+}
+
+
+.navbar{
+    display:flex;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    
+    border-radius: 2px;
+    
+   
+   
+   
+    font-size: larger;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+   
+   
+}
+nav{
+    flex:1;
+    text-align: right;
+   
+    
+    
+
+}
+nav ul{
+    display:inline-block;
+    list-style-type:none;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-right:40px;
+    padding: 0;
+    line-height: normal;
+    
+}
+
+
+nav ul li a:hover{
+   
+    transition:underline 0.3s ;
+    
+}
+nav ul li ul{
+   display: none; 
+   position: absolute;
+   background-color: #efefef;
+   padding: 20px; 
+   white-space:nowrap;
+   list-style-type: none;
+   border: 1px solid #efefef;
+   
+   
+    
+}
+nav ul li ul li{
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+  
+    text-align: center;
+    
+}
+nav ul li:hover ul{
+    display: block;
+    border: 1px solid #efefef;
+}
+
+a{
+    text-decoration: none;
+    color:#555;
+}
+a:hover{
+    color: #201d1d;
+    text-decoration: underline;
+}
+a:active{
+    background-color: rgb(28, 27, 27);
+}
+p{
+    color:#272424;
+}
+
+.content{
+    width: 100%;
+    padding-top: 10%;
+   
+    margin-bottom: 18%;
+
+    height: auto;
+    padding: 5dvh;
+    padding-bottom: 15%;
+
+
+ 
+}
+.text{
+    text-align: middle;
+    text-transform: none;
+    margin-bottom: 1.5rem;
+    margin-left: 5%;
+}
+.text h1{
+    text-align: left;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 1.8rem;
+}
+.text p{
+    margin-bottom: 1.3rem;
+    text-transform: capitalize;
+}
+.text h2{
+    text-align: left;
+    color: rgb(11, 12, 12);
+    text-transform: uppercase;
+    
+    
+    
+}
+.btn{
+    border:1px solid black;
+    color: black;
+    padding: 0.5rem 3rem;
+    margin-top: 0;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
+    margin-left: 10%;
+ position: absolute;
+ 
+
+}   
+.btn:hover{
+    color: #e9e6e6;
+    background-color: rgb(49, 46, 46);
+}
+
+.hero-img{
+    position: absolute;
+    top:1%;
+    right:7%;
+    margin-top: 10%;
+  
+    width: 50%;
+   
+   
+   
+    
+}
+
+/* Your existing CSS */
+
+
+  
+/*product css*/
+.p-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.product {
+    background-color: #efefef;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.product-title{
+    text-align: bottom;
+    
+
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product .price {
+    font-weight: bold;
+    color: #095dcc;
+    
+}
+
+.to-cart button {
+    padding: 5px 10px;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.to-cart button:hover {
+    background-color: #005f75;
+}
+
+
+.site-footer {
+    
+    
+    
+   position: relative;
+    color: #080808;
+    text-align: center;
+    display: grid;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+  
+    padding-top: 0%;
+    flex-basis: 15%;
+    margin-top: auto;
+    
+}
+  
+  .footer{
+  
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+    
+    
+  }
+  .footer-section {
+    padding: 20px;
+    grid-column: span 1;
+  }
+  
+  .footer-section-about {
+    grid-column: 1;
+  }
+  
+  .footer-section-links {
+    grid-column: 2;
+  }
+  
+  .footer-section-contact {
+    grid-column: 3;
+  }
+  
+  .footer-bottom {
+    grid-column: 1/ 6;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: 1px solid #8b8686;
+    
+    bottom:0;
+  }
+  
+  .footer-bottom p {
+    font-size: 14px;
+    color: #666;
+  }
+  .form1{
+    border-radius: 1px black;
+    display: flex;
+    text-align: center;
+   
+   
+  }
+  .form1 label{
+    text-transform: capitalize;
+    color: black;
+  }
+  .form1 textarea{
+    width: 300px;
+    text-transform: capitalize;
+    color: #555;
+    text-align: center;
+  }
