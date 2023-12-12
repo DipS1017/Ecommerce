@@ -1,0 +1,200 @@
+*{
+   
+    box-sizing:border-box;
+   margin: 0;
+   padding: 0;
+    
+}
+
+
+.navbar{
+    display:flex;
+    align-items: center;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    
+    border-radius: 2px;
+    
+   
+   
+   
+    font-size: larger;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+
+   
+   
+}
+nav{
+    flex:1;
+    text-align: right;
+   
+    
+    
+
+}
+nav ul{
+    display:inline-block;
+    list-style-type:none;
+    
+}
+nav ul li{
+    display: inline-block;
+    margin-right:40px;
+    padding: 0;
+    line-height: normal;
+    
+}
+
+
+nav ul li a:hover{
+   
+    transition:underline 0.3s ;
+    
+}
+nav ul li ul{
+   display: none; 
+   position: absolute;
+   background-color: #fffbfb;
+   padding: 2%;
+   white-space:nowrap;
+   list-style-type: none;
+   border: 1px solid #070606;
+   
+   
+    
+}
+nav ul li ul li{
+    display: block;
+    margin-bottom: 10px;
+    padding: 8px;
+  
+    text-align: center;
+    
+}
+nav ul li:hover ul{
+    display: block;
+    border: 1px solid #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color:#555;
+}
+a:hover{
+    color: #201d1d;
+    text-decoration: underline;
+}
+
+p{
+    color:#272424;
+}
+
+.content{
+    width: 100%;
+    padding-top: 10%;
+   
+    margin-bottom: 18%;
+
+    height: auto;
+    padding: 5dvh;
+    padding-bottom: 15%;
+
+
+ 
+}
+.text{
+    text-align: middle;
+    text-transform: none;
+    margin-bottom: 1.5rem;
+    margin-left: 5%;
+}
+.text h1{
+    text-align: left;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 1.8rem;
+}
+.text p{
+    margin-bottom: 1.3rem;
+    text-transform: capitalize;
+}
+.text h2{
+    text-align: left;
+    color: rgb(11, 12, 12);
+    text-transform: uppercase;
+    
+    
+    
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+    text-decoration: none;
+}
+body{
+    background-color: #f2f4f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.login-form{
+    width: 450px;
+    background-color: white;
+    box-shadow: 0px 5px 10px black;
+}
+
+div.login-form h2{
+    text-align: center;
+    background-color: #204969;
+    padding: 12px 0px;
+    color: white;
+}
+div.login-form form{
+    padding: 30px 60px;
+}
+div.login-form form div.input-field{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+div.login-form form div.input-field i{
+    color: darkslategray;
+    padding: 10px 14px;
+    background-color: #f2f4f6;
+    margin-right: 4px;
+}
+div.login-form form div.input-field input{
+    background-color: #f2f4f6;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    padding-left: 15px;
+}
+div.login-form form button{
+    width: 100%;
+    background-color: #5bd1d7;
+    padding: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin: 15px 0;
+    transition: background-color 0.4s;
+}
+div.login-form form button:hover{
+    background-color: #41b6e6;
+}
+div.login-form form div.extra{
+    font-size: 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+div.login-form form div.extra a:first-child{
+    color: darkgrey;
+}
+div.login-form form div.extra a:last-child{
+    color: grey;
+}

@@ -54,11 +54,11 @@ nav ul li a:hover{
 nav ul li ul{
    display: none; 
    position: absolute;
-   background-color: #efefef;
-   padding: 20px; 
+   background-color: #fffbfb;
+   padding: 2%;
    white-space:nowrap;
    list-style-type: none;
-   border: 1px solid #efefef;
+   border: 1px solid #070606;
    
    
     
@@ -73,7 +73,7 @@ nav ul li ul li{
 }
 nav ul li:hover ul{
     display: block;
-    border: 1px solid #efefef;
+    border: 1px solid #ffffff;
 }
 
 a{
@@ -84,9 +84,7 @@ a:hover{
     color: #201d1d;
     text-decoration: underline;
 }
-a:active{
-    background-color: rgb(28, 27, 27);
-}
+
 p{
     color:#272424;
 }
@@ -269,17 +267,24 @@ p{
     color: #666;
   }
   .form1{
-    border-radius: 1px black;
+    border-radius: 1px ;
     display: flex;
     text-align: center;
-   
+    box-sizing: border-box;
+    padding:10%;
+    border: #555 1px groove;
+    
+    margin:15% 15% 25% 15%;
    
   }
   .form1 label{
     text-transform: capitalize;
     color: black;
+    position: relative;
+    text-align: center;
   }
   .form1 textarea{
+    position: relative;
     width: 300px;
     text-transform: capitalize;
     color: #555;

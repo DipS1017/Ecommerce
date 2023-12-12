@@ -1,6 +1,6 @@
 <?php
 // Include the connection file
-include 'connection.php';
+include '../assets/connection.php';
 
 $inserted = false; // Initialize the insertion status
 
@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $price = $_POST["price"];
 
     // File upload handling
-    $targetDirectory = ".admin_panel/uploads/"; // Directory where uploaded files will be stored
+    $targetDirectory = "../uploads/"; // Directory where uploaded files will be stored
     $targetFile = $targetDirectory . basename($_FILES["image_url"]["name"]); // Path of the uploaded file
     $imageFileType = strtolower(pathinfo($targetFile, PATHINFO_EXTENSION)); // Get the file extension
 

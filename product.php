@@ -16,7 +16,7 @@
   <div class="p-container">
 
         <?php
-        include 'connection.php';
+        include 'assets/connection.php';
 
         $sql = "SELECT * FROM products";
         $result = $conn->query($sql);
@@ -27,7 +27,7 @@
               echo '<div class="product">';
               echo '<a href="#" class="product-link" data-productid="'.$row["id"].'">';
                 echo '<div class="p-img">';
-                echo '<img src="'.$row["image_url"].'" alt="product">';
+                echo '<img src="./uploads/'.$row["image_url"].'" alt="product">';
                 echo '</div>';
                 echo '<div class="product-title">';
                 echo '<h2 class="title">'.$row["product_name"].'</h2>';
